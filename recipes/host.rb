@@ -23,3 +23,7 @@ node['kvm']['host']['packages'].each do |pkg|
     action :install
   end
 end
+
+service node['kvm']['host']['service_name'] do
+  action [ :enable, :start ]
+end
