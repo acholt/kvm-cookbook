@@ -27,7 +27,6 @@ Install KVM Hypervisor on Ubuntu, Debian, CentOS or RHEL
 ### Default recipe
 
 Detect the server role from OHAI : host or guest. And install minimum packages.
-For security, the default recipe doesn't install a kvm server, you need to install it with kvm::host
 
 ### host recipe
 
